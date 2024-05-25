@@ -22,10 +22,10 @@ pip install mlflow
 
 It contains four main modules:
 
-**Tracking* /
-**Models*/
-**Model Registry*/
-**Projects*/
+**Tracking*  \
+**Models*  \
+**Model Registry* \
+**Projects* \
 **Tracking experiments with MLflow**
 
 The MLflow Tracking module allows you to organize and keep track of:
