@@ -18,7 +18,7 @@ MLflow is an open-source platform for the machine learning lifecycle. It is a py
 
 ```bash
 pip install mlflow
-
+```
 
 It contains four main modules:
 
