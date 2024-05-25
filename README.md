@@ -22,22 +22,23 @@ pip install mlflow
 
 It contains four main modules:
 
-Tracking
-Models
-Model Registry
-Projects
-Tracking experiments with MLflow
+**Tracking*
+**Models*
+**Model Registry*
+**Projects*
+**Tracking experiments with MLflow**
+
 The MLflow Tracking module allows you to organize and keep track of:
 
-Parameters — It could be any that influences the model score, such as Hyperparameter but also the data, the source data. It could be, for example, the different version of the data. The model has a good score with a month previous data. However, with the new data, the model shows a bad score.
+_Parameters_ — It could be any that influences the model score, such as Hyperparameter but also the data, the source data. It could be, for example, the different version of the data. The model has a good score with a month previous data. However, with the new data, the model shows a bad score.
 
-Metrics — Any metric that helps to score the model performance such as r2, RMSE, etc.
+_Metrics_ — Any metric that helps to score the model performance such as r2, RMSE, etc.
 
-Metadata — Metadata is generally used to add extra information to the model that helps to find the information about this model easily, for example, the tag, the name of the developer could be as a tag.
+_Metadata_ — Metadata is generally used to add extra information to the model that helps to find the information about this model easily, for example, the tag, the name of the developer could be as a tag.
 
-Artifacts — It helps to interpret the model in an easy way. For example, the graph shows which model is better, or how the performance model is changing over time.
+_Artifacts_ — It helps to interpret the model in an easy way. For example, the graph shows which model is better, or how the performance model is changing over time.
 
-Models — The model that you trained and want to save the model for automation.
+_Models_ — The model that you trained and want to save the model for automation.
 
 Along with this information, MLflow automatically logs extra information about the run:
 
