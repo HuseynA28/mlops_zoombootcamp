@@ -18,3 +18,36 @@ MLflow is an open-source platform for the machine learning lifecycle. It is a py
 
 ```bash
 pip install mlflow
+
+
+It contains four main modules:
+
+Tracking
+Models
+Model Registry
+Projects
+Tracking experiments with MLflow
+The MLflow Tracking module allows you to organize and keep track of:
+
+Parameters — It could be any that influences the model score, such as Hyperparameter but also the data, the source data. It could be, for example, the different version of the data. The model has a good score with a month previous data. However, with the new data, the model shows a bad score.
+
+Metrics — Any metric that helps to score the model performance such as r2, RMSE, etc.
+
+Metadata — Metadata is generally used to add extra information to the model that helps to find the information about this model easily, for example, the tag, the name of the developer could be as a tag.
+
+Artifacts — It helps to interpret the model in an easy way. For example, the graph shows which model is better, or how the performance model is changing over time.
+
+Models — The model that you trained and want to save the model for automation.
+
+Along with this information, MLflow automatically logs extra information about the run:
+
+Source code
+Version of the code
+Start and end time
+Author
+Let us start with MLflow
+Create a new repository in the GitHub and go to the code and choose the CodeSpaces.
+
+In the CodeSpace click on three dots and choose Open in Visual Studio Code. When Visual Studio Code starts, you can access your virtual machine locally and develop your model in this virtual machine.
+
+Open the Visual Code terminal (Ctrl+Shift+P) and check the python version:
