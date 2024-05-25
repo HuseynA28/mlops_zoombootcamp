@@ -52,3 +52,20 @@ Create a new repository in the GitHub and go to the code and choose the CodeSpac
 In the CodeSpace click on three dots and choose Open in Visual Studio Code. When Visual Studio Code starts, you can access your virtual machine locally and develop your model in this virtual machine.
 
 Open the Visual Code terminal (Ctrl+Shift+P) and check the python version:
+
+```bash
+python — version
+```
+
+Go to the GitHub repositories https://github.com/HuseynA28/mlops_zoombootcamp/tree/main/02-experiment-tracking and install the requirements.txt.
+
+```bash
+pip install -r requirements.txt
+
+Requirements data contains the latest version of the MLflow and other packages that we will use later.
+
+
+This content will provide a well-structured `README.md` for your GitHub repository, including code blocks for commands, which improves the document's usability and readability.
+
+```
+
