@@ -15,7 +15,7 @@ Source code, Environment, Data, Model, Hyperparameters, and Metrics are the comm
 The concept of model tracking, the tools, and the methods of how we can track the model are also super important. The tracking should be simple and compact so that not just a senior Machine learning developer can understand the result, but also a junior Machine learning model who started the job a week ago can understand the result. They should be able to get insights from the tracking about which run was successful, which parameters were used, and finally, which machine learning model has the best score. Therefore, it’s time for us to talk about MLflow.
 
 MLflow is an open-source platform for the machine learning lifecycle. It is a python package that you can easily install with the pip command,
-
+htt
 ```bash
 pip install mlflow
 ```
