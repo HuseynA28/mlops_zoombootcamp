@@ -1,0 +1,6 @@
+pandas
+scikit-learn
+torch
+mlflow
+xgboost
+hyperopt
